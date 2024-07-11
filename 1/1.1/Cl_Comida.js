@@ -45,7 +45,7 @@ export default class Cl_Comida {
     }
 
     PagoComensal(){
-        return this.calcularJugo() + this.calcularPagoEmpanadas() + this.calcularPagoPastelitos();
+        return this.calcularJugo() + this.calcularPagoEmpanadas() + this.calcularPagoPastelitos();.toFixed(2)
     }
 
     devolverEmpanadas(){
